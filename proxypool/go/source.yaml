@@ -231,10 +231,10 @@
     url: https://8.136.5.236/clash/proxies
 
 # 订阅链接9
-#自动动态更新
-- type: subscribe
-  options:
-    url: http://120.92.132.166:8888/down/QBXFCG5vwkzr
+# 自动动态更新
+# - type: subscribe
+#   options:
+#    url: http://120.92.132.166:8888/down/QBXFCG5vwkzr
 - type: subscribe
   options:
     url: https://suo.yt/JMvfwOT
