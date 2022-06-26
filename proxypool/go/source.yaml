@@ -9,9 +9,9 @@
     url: https://raw.githubusercontent.com/adskd/ffasdc1/main/asub.list
 
 # 订阅链接
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/freefq/free/master/v2
 
 # 订阅链接1
 - type: subscribe
@@ -231,10 +231,10 @@
     url: https://8.136.5.236/clash/proxies
 
 # 订阅链接9
-#自动动态更新
-- type: subscribe
-  options:
-    url: http://120.92.132.166:8888/down/QBXFCG5vwkzr
+# 自动动态更新
+# - type: subscribe
+#   options:
+#    url: http://120.92.132.166:8888/down/QBXFCG5vwkzr
 - type: subscribe
   options:
     url: https://suo.yt/JMvfwOT
