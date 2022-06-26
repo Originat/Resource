@@ -9,9 +9,9 @@
     url: https://raw.githubusercontent.com/adskd/ffasdc1/main/asub.list
 
 # 订阅链接
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/freefq/free/master/v2
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/freefq/free/master/v2
 
 # 订阅链接1
 - type: subscribe
