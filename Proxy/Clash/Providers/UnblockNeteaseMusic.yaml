@@ -1,5 +1,5 @@
 proxies:
-  - name: 🎶 解锁
+  - name: 🎵 非VIP+歌单解锁
     type: ss
     server: music.desperadoj.com
     port: 30001
