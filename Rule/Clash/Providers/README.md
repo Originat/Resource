@@ -2,7 +2,7 @@
 
 ### URL=https://github.com/privacy-protection-tools/anti-AD
 
-### URL=https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt(参考)
+### (参考) URL=https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt
 
 ### (1)- '+.. 替换 - DOMAIN-SUFFIX,
 
