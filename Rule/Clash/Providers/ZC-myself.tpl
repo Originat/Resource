@@ -1,5 +1,4 @@
 # 更新于20221207
- - IP-CIDR,192.168.123.123,🎯 全球直连,no-resolve
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
