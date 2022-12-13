@@ -1,3 +1,12 @@
+# 自定义订阅
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/mehdimoghaddam-cell/v2ray-Subscription/main/V2RAY.txt
+# 自定义clash格式订阅链接 
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/mehdimoghaddam-cell/Clash-Subscription/main/mehdimoghaddam-cell.yaml
+
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
@@ -269,9 +278,6 @@
 - type: subscribe
   options:
     url: https://www.liesauer.net/yogurt/subscribe?ACCESS_TOKEN=DAYxR3mMaZAsaqUb
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/satrom/V2SSR/master/SSR/Sub.txt
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0411.txt
