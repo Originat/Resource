@@ -1,11 +1,20 @@
 # 自定义订阅
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/mehdimoghaddam-cell/v2ray-Subscription/main/V2RAY.txt
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/mehdimoghaddam-cell/v2ray-Subscription/main/V2RAY.txt
 # 自定义clash格式订阅链接 
-- type: clash
+# - type: clash
+#   options:
+#     url: https://raw.githubusercontent.com/mehdimoghaddam-cell/Clash-Subscription/main/mehdimoghaddam-cell.yaml
+# tg频道抓取
+- type: tgchannel
   options:
-    url: https://raw.githubusercontent.com/mehdimoghaddam-cell/Clash-Subscription/main/mehdimoghaddam-cell.yaml
+    channel: mfjdpd
+    num: 200
+- type: tgchannel
+  options:
+    channel: bdpd8
+    num: 200
 
 # 模糊抓取订阅链接
 - type: webfuzzsub
@@ -426,10 +435,6 @@
 - type: tgchannel
   options:
     channel: lanxhcom
-    num: 200
-- type: tgchannel
-  options:
-    channel: bdpd8
     num: 200
 
 
