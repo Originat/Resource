@@ -927,6 +927,16 @@ $_ENV['Clash_Profiles'] = [
                         'freenode-trojan',
                 ],
             ],
+            [
+                'name' => '美国节点',
+                'type' => 'load-balance',
+				'url' => 'http://www.gstatic.com/generate_204',
+                'interval' => 60,
+                'tolerance' => 50,
+                'content' => [
+                    'regex' => '(.*US)'
+                ],
+            ]
         ],
         'Rule' => [
             'source' => 'clash/myself.tpl',
