@@ -1,5 +1,7 @@
-#ZSQ规则 
+# ZSQ规则 
  - DOMAIN,nas.zhangnas.club,🚀 ZHStyle
+# US-故障转移 解决 openai.com 的国家问题
+ - DOMAIN-SUFFIX,openai.com,US-故障转移
 #
  - RULE-SET,Telegram,📲 电报消息
  - RULE-SET,NeteaseMusic,🎶 网易音乐

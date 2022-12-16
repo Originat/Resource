@@ -928,8 +928,8 @@ $_ENV['Clash_Profiles'] = [
                 ],
             ],
             [
-                'name' => '美国节点',
-                'type' => 'load-balance',
+                'name' => 'US-故障转移',
+                'type' => 'fallback',
 				'url' => 'http://www.gstatic.com/generate_204',
                 'interval' => 60,
                 'tolerance' => 50,
