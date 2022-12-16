@@ -507,6 +507,16 @@ $_ENV['Clash_Profiles'] = [
                 'content' => [
                     'regex' => '(.*)',
                 ]
+            ],
+            [
+                'name' => 'US-故障转移',
+                'type' => 'fallback',
+				'url' => 'http://www.gstatic.com/generate_204',
+                'interval' => 60,
+                'tolerance' => 50,
+                'content' => [
+                    'regex' => '(.*US)'
+                ],
             ]
         ],
         'Rule' => [

@@ -1,3 +1,7 @@
+# ZSQ规则 
+ - DOMAIN,nas.zhangnas.club,🚀 ZHStyle
+# US-故障转移 解决 openai.com 的国家问题
+ - DOMAIN-SUFFIX,openai.com,US-故障转移
 # 更新于20221207
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
