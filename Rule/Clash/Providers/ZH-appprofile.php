@@ -459,7 +459,7 @@ $_ENV['Clash_Profiles'] = [
 			    'type' => 'http',
 				'behavior' => 'classical',
 				'path' => './RuleSet/AntiAd.yaml',
-		    	'url' => 'https://raw-github-v.alienergy.eu.org/Originat/Resource/main/Rule/Clash/Providers/AntiAd.yaml',
+		    	'url' => 'https://cdn.staticaly.com/gh/Originat/Resource/main/Rule/Clash/Providers/AntiAd.yaml',
 			   	'interval' => 86400,
 			],
 			# 🆎 AdBlock -- EasyList列表，只包含ABP中的 EasyList 内容
