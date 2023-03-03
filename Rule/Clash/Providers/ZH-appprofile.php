@@ -607,21 +607,21 @@ $_ENV['Clash_Profiles'] = [
                 ],
                 
             ],
-            [
-                'name' => '📲 电报消息',
-                'type' => 'select',
-                'content' => [
-                    'left-proxies' => [
-					    '🚀 ZHStyle',
-                        '♻️ ZH-自动选择',
-                        '🔮 ZH-负载均衡',
-                    ],
-                    'regex' => '(.*)',
-                    'right-proxies' => [
-                        'DIRECT',
-					],
-                ],
-            ],
+            // [
+            //     'name' => '📲 电报消息',
+            //     'type' => 'select',
+            //     'content' => [
+            //         'left-proxies' => [
+			// 		    '🚀 ZHStyle',
+            //             '♻️ ZH-自动选择',
+            //             '🔮 ZH-负载均衡',
+            //         ],
+            //         'regex' => '(.*)',
+            //         'right-proxies' => [
+            //             'DIRECT',
+			// 		],
+            //     ],
+            // ],
             [
 			    'name' => '🎶 网易音乐',
                 'type' => 'select',
@@ -634,20 +634,20 @@ $_ENV['Clash_Profiles'] = [
                         'UnblockNeteaseMusic',
                 ],
 			],
-            [
-                'name' => '📹 油管视频',
-                'type' => 'select',
-                'content' => [
-                    'left-proxies' => [
-					    '🚀 ZHStyle',
-                        '♻️ ZH-自动选择'
-                    ],
-                    'regex' => '(.*)',
-                    'right-proxies' => [
-                        'DIRECT',
-					],
-                ],
-            ],
+            // [
+            //     'name' => '📹 油管视频',
+            //     'type' => 'select',
+            //     'content' => [
+            //         'left-proxies' => [
+			// 		    '🚀 ZHStyle',
+            //             '♻️ ZH-自动选择'
+            //         ],
+            //         'regex' => '(.*)',
+            //         'right-proxies' => [
+            //             'DIRECT',
+			// 		],
+            //     ],
+            // ],
 			[
                 'name' => '🎥 奈飞视频',
                 'type' => 'select',
@@ -681,25 +681,26 @@ $_ENV['Clash_Profiles'] = [
                 'type' => 'select',
                 'content' => [
                     'left-proxies' => [
-					    'DIRECT',
+					    'US-故障转移',
+                        'DIRECT',
 						'🚀 ZHStyle',
                         '♻️ ZH-自动选择',
                     ],
                     'regex' => '(.*)',
                 ],
             ],
-			[
-                'name' => '📢 谷歌FCM',
-                'type' => 'select',
-                'content' => [
-                    'left-proxies' => [
-					    'DIRECT',
-					    '🔮 ZH-负载均衡',
-						'🚀 ZHStyle',
-                    ],
-                    'regex' => '(.*)',
-                ],
-            ],
+			// [
+            //     'name' => '📢 谷歌FCM',
+            //     'type' => 'select',
+            //     'content' => [
+            //         'left-proxies' => [
+			// 		    'DIRECT',
+			// 		    '🔮 ZH-负载均衡',
+			// 			'🚀 ZHStyle',
+            //         ],
+            //         'regex' => '(.*)',
+            //     ],
+            // ],
 			[
                 'name' => '🛑 广告拦截',
                 'type' => 'select',
@@ -710,36 +711,36 @@ $_ENV['Clash_Profiles'] = [
                     ],
                 ],
             ],
-			[
-                'name' => '🍃 应用净化',
-                'type' => 'select',
-                'content' => [
-                    'left-proxies' => [
-					    'REJECT',
-						'DIRECT',
-                    ],
-                ],
-            ],
-            [
-                'name' => 'AntiAd',
-                'type' => 'select',
-                'content' => [
-                    'left-proxies' => [
-					    'REJECT',
-						'DIRECT',
-                    ],
-                ],
-            ],
-			[
-                'name' => '🆎 AdBlock',
-                'type' => 'select',
-                'content' => [
-                    'left-proxies' => [
-					    'REJECT',
-						'DIRECT',
-                    ],
-                ],
-            ],
+			// [
+            //     'name' => '🍃 应用净化',
+            //     'type' => 'select',
+            //     'content' => [
+            //         'left-proxies' => [
+			// 		    'REJECT',
+			// 			'DIRECT',
+            //         ],
+            //     ],
+            // ],
+            // [
+            //     'name' => 'AntiAd',
+            //     'type' => 'select',
+            //     'content' => [
+            //         'left-proxies' => [
+			// 		    'REJECT',
+			// 			'DIRECT',
+            //         ],
+            //     ],
+            // ],
+			// [
+            //     'name' => '🆎 AdBlock',
+            //     'type' => 'select',
+            //     'content' => [
+            //         'left-proxies' => [
+			// 		    'REJECT',
+			// 			'DIRECT',
+            //         ],
+            //     ],
+            // ],
 			[
                 'name' => '🛡️ 隐私防护',
                 'type' => 'select',

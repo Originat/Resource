@@ -394,6 +394,7 @@ $_ENV['Clash_Profiles'] = [
                 'type' => 'select',
                 'content' => [
                     'left-proxies' => [
+                        'US-故障转移',
 					    'DIRECT',
 						'🚀 ZHStyle',
                         '♻️ 自动选择'
