@@ -845,6 +845,7 @@ $_ENV['Clash_Profiles'] = [
                 'interval' => 60,
                 'tolerance' => 50,
                 'content' => [
+                    null
                     // 'regex' => '(.*C)',
                 ],
                 'use' => [
