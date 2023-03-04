@@ -844,9 +844,9 @@ $_ENV['Clash_Profiles'] = [
 				'url' => 'http://www.gstatic.com/generate_204',
                 'interval' => 60,
                 'tolerance' => 50,
-                // 'content' => [
-                //     'regex' => '(.*C)',
-                // ],
+                'content' => [
+                    // 'regex' => '(.*C)',
+                ],
                 'use' => [
                         'freenode-ss',
                         'freenode-vmess',
