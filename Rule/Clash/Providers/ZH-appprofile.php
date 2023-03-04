@@ -815,7 +815,9 @@ $_ENV['Clash_Profiles'] = [
 				'interval' => 60,
 				'tolerance' => 50,
 				'content' => [
-                    'regex' => '(.*C)',
+                    'left-proxies' => [
+                        'REJECT'
+                      ],
                 ],
                 'use' => [
                         'freenode-ss',
@@ -830,7 +832,9 @@ $_ENV['Clash_Profiles'] = [
                 'interval' => 60,
                 'tolerance' => 50,
                 'content' => [
-                    'regex' => '(.*C)',
+                    'left-proxies' => [
+                        'REJECT'
+                      ],
                 ],
                 'use' => [
                         'freenode-ss',
@@ -844,10 +848,11 @@ $_ENV['Clash_Profiles'] = [
 				'url' => 'http://www.gstatic.com/generate_204',
                 'interval' => 60,
                 'tolerance' => 50,
-                'content' => null,
-                //[
-                    // 'regex' => '(.*C)',
-                //],
+                'content' => [
+                    'left-proxies' => [
+                        'REJECT'
+                      ],
+                ],
                 'use' => [
                         'freenode-ss',
                         'freenode-vmess',
