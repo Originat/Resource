@@ -1,3 +1,5 @@
+# 参考：https://desperadoj.com/16.html
+# https://raw.gitmirror.com/DesperadoJ/Rules-for-UnblockNeteaseMusic/master/Clash/Proxy/NeteaseMusic.yaml
 proxies:
   - name: 🎵 非VIP+歌单解锁
     type: ss
